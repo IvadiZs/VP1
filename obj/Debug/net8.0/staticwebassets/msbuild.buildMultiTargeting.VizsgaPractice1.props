@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VizsgaPractice1.props" />
+</Project>
