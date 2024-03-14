@@ -13,7 +13,7 @@ namespace VizsgaPractice1.Controllers {
         public ActionResult Get() {
             using (var context = new OsztalynaploContext()) {
                 try {
-                    return Ok($"Összes jegy száma: {context.Tantargyaks.ToList().Count}");
+                    return Ok($"Összes jegy száma: {context.Jegyeks.ToList().Count}");
                 }
                 catch (Exception e) {
 
