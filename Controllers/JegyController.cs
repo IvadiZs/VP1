@@ -7,7 +7,7 @@ using static VizsgaPractice1.Models.DTOs.DTOs;
 namespace VizsgaPractice1.Controllers {
     [Route("api/[controller]")]
     [ApiController]
-    public class EzAJegyController : ControllerBase {
+    public class JegyController : ControllerBase {
 
         [HttpGet]
         public ActionResult Get() {
