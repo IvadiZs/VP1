@@ -5,7 +5,7 @@ using VizsgaPractice1.Models;
 namespace VizsgaPractice1.Controllers {
     [Route("api/[controller]")]
     [ApiController]
-    public class JegyController : ControllerBase {
+    public class TantargyController : ControllerBase {
 
         [HttpGet]
         public ActionResult Get() {
